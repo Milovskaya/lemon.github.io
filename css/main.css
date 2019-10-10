@@ -1,4 +1,17 @@
 body {
+	background: url("../images/background.png") no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+#logo {
+    margin: 0 auto;
+	width: 382px;
+}
+#Base {
+	margin: 0 auto;
+	width: 1121px;
 }
 
 
