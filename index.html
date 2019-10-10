@@ -1,5 +1,88 @@
 <! DOCTYPE html>
 <html>
 <head>
+      <title>Lemon</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset-utf-8" />
+	    <meta name="description" content="" />
+	    <meta name="keywords" content="" />
+	    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	    <link type="text/css" rel="stylesheet" href="styles/main.css" />
+<style>
+.dropbtn {
+    font-family: "Josefin Sans";
+    color: #505050;
+	background-color: #f8f8f8;
+	font-weight: light;
+    padding: 17px;
+    font-size: 13pt;
+    border: none;
+}
+
+.dropdown {
+
+    position: relative;
+	top: 280px;
+	left: 640px;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8f8f8;
+    min-width: 160px;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #cfcfcf;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    text-decoration: underline;
+	color: #818181;
+}
+
+/* Show the dropdown menu on hover */
+.dropbtn:hover  .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #f8f8f8;}
+</style>
+</head>
+<body>
+    <div id="container">
+	    <div id="logo">
+	        <img src="images/logo.png" alt="Логотип Lemon" style="position:relative; top: 251px" />
+		  </div>	
+	    <div id="Base">
+		    <img src="images/Base.png" alt="Основное меню" style="position:relative; top: 370px" />
+		  </div>
+			<div class="dropdown">
+                <button class="dropbtn">HOME</button>
+			        	<button class="dropbtn">RECIPES
+                <div class="dropdown-content">
+                    <a href="#">RECOMMENDED</a>
+                    <a href="#">POPULAR</a>
+                    <a href="#">QUICK & EASY</a>
+					          <a href="#">HEALTHY</a>
+					          <a href="#">NEWEST</a>
+                </div>
+				        </button>
+				        <button class="dropbtn">PHOTO GALLERIES
+			         	</button>
+			        	<button class="dropbtn">VIDEOS
+				        </button>
+				       <button class="dropbtn">ALL CATEGORIES
+			        	</button>
+      </div>
+  	</div>	
+</body>
 </head>
 </html> 
