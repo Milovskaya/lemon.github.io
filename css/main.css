@@ -2,7 +2,9 @@ body {
 	background: url("../images/background.png") no-repeat;
 	background-size: cover;
 	margin: 0;
-	padding: 0;
+	
+	padding: 0;  /*250 ;*/
+	font-family:  PlayfairDisplay; /*type JosefinSans*/
 }
 
 #logo {
@@ -14,5 +16,104 @@ body {
 	width: 1121px;
 }
 
+
+#article{  
+
+    background: url("../images/pg.png") no-repeat;
+	height:438px;
+	width: 1122px;
+	padding-top:188px; /*for text inside article 50*/
+	padding-left : 90px;
+    /*margin-left:60px; for article from screen */
+}
+
+
+
+
+a.boot {
+ 
+  color: #2d2d2d;
+  border: 1px solid #000000;
+  padding: 8px 12px ;
+  font-family: "JosefinSans"; 
+  font-size: 12px;
+  text-decoration: none;
+  width:104px;
+
+  text-align:center;
+}
+
+
+#article h1{
+	
+	font-size: 25px;
+color: #921026;} /*color heading*/
+
+
+.slider-container {
+	position: relative;
+	margin: 60px auto 40px;
+	width: 1122px;
+	height: 438px;
+	
+
+}
+
+.slides {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.slides img {
+	width: 100%;
+	height: 100%;
+}
+
+.slide_img {
+	display: none;
+}
+
+
+
+.switchers {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: 0;
+	text-align: right;
+}
+.switcher {
+	background: #ffffff;
+	width: 8px;
+	height: 8px;
+	position: relative;
+	top: 0px;
+	
+	display: inline-block;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#img_1:checked ~ #first,
+#img_2:checked ~ #second,
+#img_3:checked ~ #third 
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+#img_1:checked ~ div #switcher1,
+#img_2:checked ~ div #switcher2,
+#img_3:checked ~ div #switcher3
+{
+	background: #555555;
+}
 
 
