@@ -56,7 +56,7 @@ color: #921026;} /*color heading*/
 
 
 .slider-container {
-	position: relative;
+	
 	margin: 60px auto 40px;
 	width: 1122px;
 	height: 438px;
@@ -70,10 +70,11 @@ color: #921026;} /*color heading*/
 	height: 100%;
 	visibility: hidden;
 	opacity: 0;
-	-webkit-transition: .5s;
-    -moz-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
+	-webkit-transition: 3s;
+    -moz-transition: 3s;
+	width: 1122px;
+	height: 438px;
+    transition: 3s;
 }
 
 .slides img {
@@ -88,9 +89,9 @@ color: #921026;} /*color heading*/
 
 
 .switchers {
-	position: absolute;
+	
 	width: 100%;
-	height: 30px;
+	height: 25px;
 	bottom: 0;
 	text-align: right;
 }
