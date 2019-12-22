@@ -123,4 +123,41 @@ position: relative;
 	background: #555555;
 }
 
+.table{
+	
+    background:#ffffff;
+    width: 1122px;
+ margin:87px auto;
+ height:375px;
+}
+.column1{
+   
+    float:left;
+    width: 316px;
+    height: 300px;
+    margin-left:43px;
+	margin-top:43px;
+	color: #555555;
+}
+.column2{
+    
+    float:left;
+    width: 316px;
+    height: 300px;
+    margin:43px;
+	color: #555555;
+}
+.column3{
+    
+    float:left;
+    width: 316px;
+    height: 300px;
+    margin-right:43px;
+	margin-top:43px;
+	color: #555555;
+}
+ 
+.clear{
+    clear:both;
+}
 
