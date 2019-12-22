@@ -111,6 +111,8 @@ position: relative;
 #img_1:checked ~ #first,
 #img_2:checked ~ #second,
 #img_3:checked ~ #third 
+#img_4:checked ~ #fourth,
+#img_5:checked ~ #fifth  
 {
 	visibility: visible;
 	opacity: 1;
@@ -118,8 +120,9 @@ position: relative;
 
 #img_1:checked ~ div #switcher1,
 #img_2:checked ~ div #switcher2,
-#img_3:checked ~ div #switcher3
-{
+#img_3:checked ~ div #switcher3,
+#img_4:checked ~ div #switcher4,
+#img_5:checked ~ div #switcher5
 	background: #555555;
 }
 
